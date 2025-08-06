@@ -39,4 +39,14 @@ A simple task manager for creating and tracking daily tasks.
 
 ### ✅ Task 5: Library Management System
 A console-based library system to manage books, borrowers, and transactions.
-- **Key Concepts**: Structures/Classes, File H
+- **Key Concepts**: Structures/Classes, File Handling, Searching & Sorting
+- **Features**: Add/Search Books, Checkout/Return, Fine calculation
+
+---
+
+## 🔧 How to Run
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/yourusername/CodSoft.git
+   cd CodSoft
