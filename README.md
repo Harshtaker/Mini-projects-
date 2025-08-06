@@ -1,49 +1,42 @@
-# 💼 CodSoft Internship - August 2025
+# 💼 CodSoft Internship - C++ Programming (August 2025)
 
-Welcome to the repository of my **CodSoft Internship**, where I completed a series of practical development tasks focused on core programming and problem-solving skills.
+Welcome to my **CodSoft Internship** repository!  
+This contains all the projects I completed during the **C++ Programming Internship** offered by CodSoft in August 2025.
 
-This internship helped me enhance my logical thinking, coding ability, and familiarity with real-world project development. Below is a brief overview of each task and its implementation.
+The internship involved hands-on tasks that strengthened my understanding of programming logic, user interaction, and application development in C++. Below is an overview of all the tasks I completed.
 
 ---
 
-## 📝 Tasks Overview
+## 📝 Tasks Completed
 
 ### ✅ Task 1: Number Guessing Game
-A simple console-based game where the user tries to guess a randomly generated number within a limited number of attempts.
-- **Tech Stack**: C++ / Python
-- **Concepts Used**: Loops, Conditionals, Random Number Generation
-
-### ✅ Task 2: Student Grade Calculator
-This application takes marks as input and calculates the average percentage, then assigns a grade accordingly.
-- **Tech Stack**: C++ / Python
-- **Concepts Used**: Functions, If-Else Logic, User Input Handling
-
-### ✅ Task 3: Simple Calculator
-A command-line calculator supporting basic arithmetic operations like addition, subtraction, multiplication, and division.
-- **Tech Stack**: C++ / Python
-- **Concepts Used**: Switch Case / Conditional Statements, Loops
-
-### ✅ Task 4: To-Do List Application
-A basic task management app allowing users to add, view, and delete tasks.
-- **Tech Stack**: Python (CLI or Tkinter GUI)
-- **Concepts Used**: File Handling / Lists / Functions
-
-### ✅ Task 5: Portfolio Website (Optional Web Task)
-A personal portfolio website built with HTML, CSS, and JavaScript to showcase projects and contact details.
-- **Tech Stack**: HTML, CSS, JavaScript
-- **Features**: Responsive Layout, Project Showcase, Contact Form
-
-### ✅ Task 6: Landing Page Design
-A visually appealing landing page for a fictional product or brand.
-- **Tech Stack**: HTML, CSS, JavaScript
-- **Features**: Scroll Effects, Buttons, Image Integration
+A console-based game where the user has to guess a randomly generated number.
+- **Key Concepts**: Loops, Conditionals, Random Numbers
+- **Features**: User feedback (too high/too low), limited attempts
 
 ---
 
-## 🔧 How to Run
+### ✅ Task 2: Simple Calculator
+A calculator program that performs basic arithmetic operations.
+- **Key Concepts**: Switch Case, Functions, Input Validation
+- **Operations**: Addition, Subtraction, Multiplication, Division
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CodSoft.git
-   cd CodSoft
+---
 
+### ✅ Task 3: Tic-Tac-Toe Game
+A two-player console game implementation of classic Tic-Tac-Toe.
+- **Key Concepts**: Arrays, Loops, Conditional Logic
+- **Features**: Turn switching, win/draw detection, replay option
+
+---
+
+### ✅ Task 4: To-Do List Manager
+A simple task manager for creating and tracking daily tasks.
+- **Key Concepts**: Structures / Vectors, File I/O (optional), Menu-driven program
+- **Features**: Add/View/Delete tasks, mark as completed
+
+---
+
+### ✅ Task 5: Library Management System
+A console-based library system to manage books, borrowers, and transactions.
+- **Key Concepts**: Structures/Classes, File H
