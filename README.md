@@ -48,5 +48,5 @@ A console-based library system to manage books, borrowers, and transactions.
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/CodSoft.git
+   git clone https://github.com/Harshtaker/CodSoft.git
    cd CodSoft
