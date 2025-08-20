@@ -1,67 +1,71 @@
-📝 To-Do List Manager (C++)
+📝 To-Do List Manager
 
-This is a console-based To-Do List Manager built in C++ as part of my CodSoft Internship tasks.
-The program allows users to add, view, mark as completed, and remove tasks dynamically using vector.
+This project is part of my CodSoft Internship (Task 4).
+It is a console-based To-Do List Manager built using C++ that allows users to easily manage their daily tasks.
 
-📌 Features
+🚀 Features
 
 ➕ Add Task – Create a new task with a description.
 
 📋 View Tasks – Display all tasks with their status (✅ Completed / ❌ Pending).
 
-✔️ Mark Completed – Update a task status once it’s done.
+✔️ Mark Task as Completed – Update a task once it’s done.
 
-❌ Remove Task – Delete tasks from the list.
+❌ Remove Task – Delete any task from the list.
 
-🌀 Menu-Driven – Keeps running until the user chooses Exit.
+🌀 Menu-Driven – Runs until the user chooses to exit.
 
-⚙️ How It Works
+🛠️ Concepts Used
 
-Program starts with a menu.
+Structs (Task to store title & status)
 
-User selects an option (1-5).
+Vectors (std::vector for dynamic task storage)
 
-Tasks are stored inside a vector<Task>.
+Functions (for modular implementation)
 
-Each Task has:
+cin.ignore() & getline() (for proper string input handling)
 
-string Title (description)
+Switch Case + Loops (menu-driven program flow)
 
-bool completed (status)
-
-Functions are used for modularity:
-
-addTask()
-
-viewTasks()
-
-markCompleted()
-
-removeTask()
-
-🚀 Getting Started
+⚙️ How to Run
 🔧 Requirements
-
-C++ Compiler (like g++)
-
-Command Line / Terminal
-
-▶️ Compile & Run
-g++ todo.cpp -o todo
+C++ Compiler (e.g., g++)
+Terminal / Command Prompt
+▶️ Compile & Execute
+g++ "Task 4.cpp" -o todo
 ./todo
 
+📖 Example Run
+===== TO-DO LIST MANAGER =====
+1. Add Task
+2. View Tasks
+3. Mark Task as Completed
+4. Remove Task
+5. Exit
+Enter your choice: 1
+Enter task description: Complete C++ project
+Task added successfully!
+
+===== TO-DO LIST MANAGER =====
+1. Add Task
+2. View Tasks
+3. Mark Task as Completed
+4. Remove Task
+5. Exit
+Enter your choice: 2
 
 Your Tasks:
 1. Complete C++ project [Pending ❌]
 
-🛠️ Concepts Used
+📂 Project Structure
+Task-4_ToDoList/
+│── Task 4.cpp    # Main source code
+│── README.md   # Documentation
 
-Structs (Task)
+✨ Future Improvements
 
-Vectors (std::vector)
+💾 Save & Load tasks from a file (persistent storage)
 
-Functions for modular design
+🔄 Edit existing tasks
 
-cin.ignore() & getline() for input handling
-
-Loops & Conditionals for menu-driven logic
+⏰ Add priorities / deadlines
