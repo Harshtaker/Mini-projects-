@@ -4,11 +4,10 @@
 using namespace std;
 
 struct Task {
-    string name;
+    string Title;
     bool completed;
 };
 
-// Function prototypes
 void addTask(vector<Task> &tasks);
 void viewTasks(const vector<Task> &tasks);
 void markCompleted(vector<Task> &tasks);
@@ -33,7 +32,7 @@ int main() {
             case 2: viewTasks(tasks); break;
             case 3: markCompleted(tasks); break;
             case 4: removeTask(tasks); break;
-            case 5: cout << "Exiting... Goodbye!\n"; break;
+            case 5: cout << "closing... Goodbye!\n"; break;
             default: cout << "Invalid choice! Try again.\n";
         }
     } while (choice != 5);
