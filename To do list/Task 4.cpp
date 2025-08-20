@@ -64,3 +64,38 @@ void viewTasks(const vector<Task> &tasks) {
              << " [" << (tasks[i].completed ? "Completed ✅" : "Pending ❌") << "]\n";
     }
 }
+
+// Function to mark a task as completed
+void markCompleted(vector<Task> &tasks) {
+    int index;
+    viewTasks(tasks);
+    if (tasks.empty()) return;
+
+    cout << "Enter task number to mark as completed: ";
+    cin >> index;
+
+    if (index > 0 && index <= tasks.size()) {
+        tasks[index - 1].completed = true;
+        cout << "Task marked as completed!\n";
+    } else {
+        cout << "Invalid task number!\n";
+    }
+}
+
+// Function to remove a task
+void removeTask(vector<Task> &tasks) {
+    int index;
+    viewTasks(tasks);
+    if (tasks.empty()) return;
+
+    cout << "Enter task number to remove: ";
+    cin >> index;
+
+    if (index > 0 && index <= tasks.size()) {
+        tasks.erase(tasks.begin() + index - 1);
+        cout << "Task removed successfully!\n";
+    } else {
+        cout << "Invalid task number!\n";
+    }
+}
+
