@@ -44,13 +44,12 @@ void addTask(vector<Task> &tasks) {
     cin.ignore();  
     Task newTask;
     cout << "Enter task description: ";
-    getline(cin, newTask.name);
+    getline(cin, newTask.Title);
     newTask.completed = false;
     tasks.push_back(newTask);
     cout << "Task added successfully!\n";
 }
 
-// Function to view all tasks
 void viewTasks(const vector<Task> &tasks) {
     if (tasks.empty()) {
         cout << "No tasks available.\n";
@@ -58,12 +57,11 @@ void viewTasks(const vector<Task> &tasks) {
     }
     cout << "\nYour Tasks:\n";
     for (int i = 0; i < tasks.size(); i++) {
-        cout << i + 1 << ". " << tasks[i].name 
+        cout << i + 1 << ". " << tasks[i].Title 
              << " [" << (tasks[i].completed ? "Completed ✅" : "Pending ❌") << "]\n";
     }
 }
 
-// Function to mark a task as completed
 void markCompleted(vector<Task> &tasks) {
     int index;
     viewTasks(tasks);
@@ -80,7 +78,6 @@ void markCompleted(vector<Task> &tasks) {
     }
 }
 
-// Function to remove a task
 void removeTask(vector<Task> &tasks) {
     int index;
     viewTasks(tasks);
