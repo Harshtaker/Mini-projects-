@@ -40,9 +40,8 @@ int main() {
     return 0;
 }
 
-// Function to add a task
 void addTask(vector<Task> &tasks) {
-    cin.ignore();  // Clear input buffer
+    cin.ignore();  
     Task newTask;
     cout << "Enter task description: ";
     getline(cin, newTask.name);
