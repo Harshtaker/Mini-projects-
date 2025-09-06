@@ -12,8 +12,6 @@ Each project is small, focused, and designed to improve problem-solving, logic b
 ## 📑 Table of Contents
 - [Projects Included](#-projects-included)
 - [How to Run](#-how-to-run)
-- [Screenshots](#-screenshots)
-- [Future Plans](#-future-plans)
 
 ---
 
