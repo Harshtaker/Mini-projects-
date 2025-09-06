@@ -1,8 +1,7 @@
 # 🎯 Mini Projects - C++
 
 ![C++](https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=c%2B%2B)
-![Repo Size](https://img.shields.io/github/repo-size/Harshtaker/mini-project?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/Harshtaker/mini-project?style=for-the-badge)
+
 
 Welcome to my **Mini Projects Repository** 🚀  
 This repository contains a collection of **C++ mini projects** that I built while learning and practicing programming concepts.  
